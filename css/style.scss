@@ -717,7 +717,7 @@ ul, li{
         flex-wrap: wrap;
       }
       li{
-        padding: 20rem 25rem;
+        padding: 20rem 0;
         width: 280rem;
         height: 70rem;
         background-color: $light_gray ;
@@ -859,7 +859,7 @@ ul, li{
   }
   //탭 액티브 스타일
   .ui-tabs .ui-tabs-nav li.ui-tabs-active{
-    padding: 20rem 25rem;
+    padding: 20rem 0;
     width: 280rem;
     height: 70rem;
     background-color: $light_brown;

@@ -871,7 +871,7 @@ ul, li {
 }
 
 .internal_disease .tabs .tab_list li {
-  padding: 20rem 25rem;
+  padding: 20rem 0;
   width: 280rem;
   height: 70rem;
   background-color: #F8F8F8;
@@ -1055,7 +1055,7 @@ ul, li {
 }
 
 .internal_disease .ui-tabs .ui-tabs-nav li.ui-tabs-active {
-  padding: 20rem 25rem;
+  padding: 20rem 0;
   width: 280rem;
   height: 70rem;
   background-color: #D3B076;
