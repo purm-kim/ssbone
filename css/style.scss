@@ -112,7 +112,7 @@ html, body{
   word-break: keep-all;
   scroll-behavior: smooth;
   @include mq(mobile){
-    font-size: 0.19vw;
+    font-size: 0.2vw;
     // overflow-x: hidden;
   }
 }
@@ -149,13 +149,9 @@ ul, li{
 .w-1300{
   margin: 0 auto;
   width: 1300rem;
+  max-width: 90%;
   min-height: 50rem;
-  @include mq(mobile){
-    width: 100%;
-  }
-  @include mq(tablet){
-    width: 100%;
-  }
+  
 }
 
 .w-1200{
@@ -389,6 +385,8 @@ ul, li{
       width: 330rem;
       height: 330rem;
       @include mq(mobile){
+        right: 0;
+        width: 220rem;
         height: 220rem;
       }
       img{
@@ -460,6 +458,8 @@ ul, li{
       width: 330rem;
       height: 330rem;
       @include mq(mobile){
+        right: 0;
+        width: 220rem;
         height: 220rem;
       }
       img{
