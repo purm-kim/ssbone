@@ -133,7 +133,7 @@ ul, li {
   margin: 0 auto;
   width: 1200rem;
   min-height: 50rem;
-  max-width: 90%;
+  max-width: 95%;
 }
 
 .flex_box {
@@ -1488,11 +1488,14 @@ ul, li {
 }
 
 .sticky .section_nav {
+  padding: 8rem 0;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: #fff;
+  -webkit-box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.15);
   z-index: 10;
 }
 
@@ -1510,10 +1513,13 @@ ul, li {
   .sticky .section_nav ul {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    row-gap: 10rem;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    row-gap: 5rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-column-gap: 5rem;
             column-gap: 5rem;
   }
