@@ -1198,6 +1198,10 @@ ul, li{
   .section_nav{
     position: sticky;
     top: 0;
+    width: 100%;
+    // background-color: #909090;
+    background-color: #fff;
+    z-index: 10;
     ul{
       display: flex;
       justify-content: space-between;

@@ -1486,6 +1486,9 @@ ul, li {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 10;
 }
 
 .sticky .section_nav ul {
