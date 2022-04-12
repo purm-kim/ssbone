@@ -107,13 +107,13 @@ html, body{
   margin:0;
   padding: 0;
   font-size: 6.25%;
-  overflow-x: hidden;
+  // overflow-x: hidden;
   box-sizing: border-box;
   word-break: keep-all;
   scroll-behavior: smooth;
   @include mq(mobile){
     font-size: 0.19vw;
-    overflow-x: hidden;
+    // overflow-x: hidden;
   }
 }
 a, em, b, i, q, address{
