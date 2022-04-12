@@ -133,7 +133,7 @@ ul, li {
   margin: 0 auto;
   width: 1200rem;
   min-height: 50rem;
-  max-width: 95%;
+  max-width: 90%;
 }
 
 .flex_box {
@@ -1497,6 +1497,10 @@ ul, li {
   -webkit-box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.15);
           box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.15);
   z-index: 10;
+}
+
+.sticky .section_nav .w-1200 {
+  max-width: 95%;
 }
 
 .sticky .section_nav ul {
