@@ -1270,6 +1270,12 @@ ul, li{
         @include mq(mobile){
           width: 100%;
         }
+        .name{
+          color: #909090;
+        }
+        .h1_b{
+          color: #00b6bc;
+        }
       }
     }
     .justify{
@@ -1347,5 +1353,4 @@ ul, li{
       background-color: #f6f6f6 !important;
     }
   }
- 
 }

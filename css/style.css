@@ -1603,6 +1603,14 @@ ul, li {
   }
 }
 
+.sticky .con .title .txt_box .name {
+  color: #909090;
+}
+
+.sticky .con .title .txt_box .h1_b {
+  color: #00b6bc;
+}
+
 .sticky .con .justify {
   margin-top: 100rem;
   min-height: 150rem;
