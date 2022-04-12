@@ -1487,7 +1487,7 @@ ul, li {
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.4);
   z-index: 10;
 }
 
