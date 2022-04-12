@@ -84,7 +84,7 @@ html, body {
 
 @media (max-width: 1024px) {
   html, body {
-    font-size: 0.2vw;
+    font-size: 0.19vw;
     overflow-x: hidden;
   }
 }

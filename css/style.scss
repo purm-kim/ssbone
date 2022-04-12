@@ -112,7 +112,7 @@ html, body{
   word-break: keep-all;
   scroll-behavior: smooth;
   @include mq(mobile){
-    font-size: 0.2vw;
+    font-size: 0.19vw;
     overflow-x: hidden;
   }
 }
