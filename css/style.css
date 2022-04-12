@@ -1549,6 +1549,12 @@ ul, li {
   height: 330rem;
 }
 
+@media (max-width: 1024px) {
+  .sticky .con .title {
+    height: 660rem;
+  }
+}
+
 .sticky .con .title .box {
   padding: 50rem;
   width: 50%;
@@ -1560,6 +1566,13 @@ ul, li {
   padding: 0 !important;
   max-width: 600rem;
   top: -70rem;
+}
+
+@media (max-width: 1024px) {
+  .sticky .con .title .img_wrap {
+    position: static;
+    width: 100%;
+  }
 }
 
 .sticky .con .title .img_wrap img {
@@ -1584,14 +1597,33 @@ ul, li {
   background-color: #fff;
 }
 
+@media (max-width: 1024px) {
+  .sticky .con .title .txt_box {
+    width: 100%;
+  }
+}
+
 .sticky .con .justify {
   margin-top: 100rem;
   min-height: 150rem;
 }
 
+@media (max-width: 1024px) {
+  .sticky .con .justify {
+    width: 100%;
+    row-gap: 30rem;
+  }
+}
+
 .sticky .con .symptom {
   margin-top: 100rem;
   min-height: 200rem;
+}
+
+@media (max-width: 1024px) {
+  .sticky .con .symptom {
+    row-gap: 30rem;
+  }
 }
 
 .sticky .con .symptom .ul {
@@ -1625,6 +1657,12 @@ ul, li {
   background-color: #fff;
 }
 
+@media (max-width: 1024px) {
+  .sticky .con .symptom .ul .li {
+    width: 100%;
+  }
+}
+
 .sticky .con .symptom .ul .li .h2::after {
   content: "·";
   position: absolute;
@@ -1642,9 +1680,21 @@ ul, li {
   color: #00b6bc;
 }
 
+@media (max-width: 1024px) {
+  .sticky .con .left {
+    width: 100%;
+  }
+}
+
 .sticky .con .right {
   width: 75%;
   line-height: 1.6em;
+}
+
+@media (max-width: 1024px) {
+  .sticky .con .right {
+    width: 100%;
+  }
 }
 
 .sticky .bg {
