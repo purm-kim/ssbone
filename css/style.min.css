@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .hidden-xs {
     display: none;
   }
@@ -10,7 +10,7 @@
   display: none;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .visible-xs {
     display: block;
   }
@@ -23,7 +23,7 @@
   font-size: 16rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   #bo_list {
     width: 95% !important;
   }
@@ -35,7 +35,7 @@
   font-size: 16rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   #bo_w {
     width: 95% !important;
   }
@@ -47,7 +47,7 @@
   font-size: 16rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   #bo_v {
     width: 95% !important;
   }
@@ -58,7 +58,7 @@
   width: 1200px !important;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   #ctt {
     width: 95% !important;
   }
@@ -81,7 +81,7 @@ html, body {
   scroll-behavior: smooth;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   html, body {
     font-size: 0.2vw;
   }
@@ -112,7 +112,7 @@ ul, li {
   height: auto;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .main_style {
     padding: 150rem 0;
   }
@@ -142,7 +142,7 @@ ul, li {
   display: flex;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .flex_box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -259,7 +259,7 @@ ul, li {
   width: 25%;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .section_title {
     padding-bottom: 50rem;
     text-align: center;
@@ -271,7 +271,7 @@ ul, li {
   width: 75%;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .section_contents {
     padding: 0 20rem;
     width: 100%;
@@ -290,7 +290,7 @@ ul, li {
   padding-top: 55rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .description {
     padding: 55rem 10rem 0;
   }
@@ -312,7 +312,7 @@ ul, li {
   color: #8D6B3E;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .description b p {
     width: 90%;
   }
@@ -350,7 +350,7 @@ ul, li {
   height: 500rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .subtop01 {
     padding: 0;
     height: auto;
@@ -368,7 +368,7 @@ ul, li {
   background-color: #FAF6EF;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .subtop01::after {
     display: none;
   }
@@ -379,7 +379,7 @@ ul, li {
   height: 500rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .subtop01 .subtop_img {
     width: 100%;
     height: 250rem;
@@ -400,7 +400,7 @@ ul, li {
   background-color: #D3B076;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .subtop01 .sub_title {
     width: 100%;
     height: 250rem;
@@ -424,7 +424,7 @@ ul, li {
   height: 330rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .subtop01 .sub_title .img_wrap {
     right: 0;
     width: 220rem;
@@ -449,7 +449,7 @@ ul, li {
   height: 500rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .subtop02 {
     padding: 0;
     height: auto;
@@ -467,7 +467,7 @@ ul, li {
   background-color: #FAF6EF;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .subtop02::after {
     display: none;
   }
@@ -478,7 +478,7 @@ ul, li {
   height: 500rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .subtop02 .subtop_img {
     width: 100%;
     height: 250rem;
@@ -499,7 +499,7 @@ ul, li {
   background-color: #D3B076;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .subtop02 .sub_title {
     width: 100%;
     height: 250rem;
@@ -523,7 +523,7 @@ ul, li {
   height: 330rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .subtop02 .sub_title .img_wrap {
     right: 0;
     width: 220rem;
@@ -609,7 +609,7 @@ ul, li {
           column-gap: 25rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .case .section_contents ul li {
     height: 90rem;
   }
@@ -639,7 +639,7 @@ ul, li {
   color: #252523;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .case .section_contents ul li p {
     width: 90%;
   }
@@ -818,7 +818,7 @@ ul, li {
   height: auto;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .internal_disease .section_contents {
     height: auto;
   }
@@ -831,7 +831,7 @@ ul, li {
   width: 100%;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .internal_disease .tabs {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -855,7 +855,7 @@ ul, li {
   width: 25%;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .internal_disease .tabs .tab_list {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -877,7 +877,7 @@ ul, li {
   background-color: #F8F8F8;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .internal_disease .tabs .tab_list li {
     width: 49%;
   }
@@ -894,7 +894,7 @@ ul, li {
   width: 75%;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .internal_disease .tabs .tab_contents {
     padding-top: 50rem;
     width: 100%;
@@ -1061,7 +1061,7 @@ ul, li {
   background-color: #D3B076;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .internal_disease .ui-tabs .ui-tabs-nav li.ui-tabs-active {
     width: 49%;
     text-align: center;
@@ -1236,7 +1236,7 @@ ul, li {
   height: calc(300rem - 60rem);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .method .section_contents ul .method_list .img_wrap {
     width: 100%;
   }
@@ -1255,7 +1255,7 @@ ul, li {
   height: 60rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .method .section_contents ul .method_list .txt_con {
     width: 100%;
   }
@@ -1300,7 +1300,7 @@ ul, li {
   color: #fff;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .medicheck .section_contents ul li span {
     width: 20%;
   }
@@ -1312,7 +1312,7 @@ ul, li {
   min-height: 150rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .medicheck .section_contents ul li .text_con {
     width: 80%;
   }
@@ -1352,7 +1352,7 @@ ul, li {
   width: 100%;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .cancercheck .section_contents .target {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1374,7 +1374,7 @@ ul, li {
           column-gap: 10rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .cancercheck .section_contents .target li {
     width: 100%;
   }
@@ -1410,7 +1410,7 @@ ul, li {
           column-gap: 35rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .cancercheck .section_contents .prepare {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1500,7 +1500,7 @@ ul, li {
   width: 100%;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .sticky .section_nav ul {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -1515,7 +1515,7 @@ ul, li {
   text-align: center;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .sticky .section_nav ul li {
     width: 31%;
   }
@@ -1549,7 +1549,7 @@ ul, li {
   height: 330rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .sticky .con .title {
     height: 660rem;
   }
@@ -1568,7 +1568,7 @@ ul, li {
   top: -70rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .sticky .con .title .img_wrap {
     position: static;
     width: 100%;
@@ -1597,7 +1597,7 @@ ul, li {
   background-color: #fff;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .sticky .con .title .txt_box {
     width: 100%;
   }
@@ -1616,7 +1616,7 @@ ul, li {
   min-height: 150rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .sticky .con .justify {
     width: 100%;
     row-gap: 30rem;
@@ -1628,7 +1628,7 @@ ul, li {
   min-height: 200rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .sticky .con .symptom {
     row-gap: 30rem;
   }
@@ -1665,7 +1665,7 @@ ul, li {
   background-color: #fff;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .sticky .con .symptom .ul .li {
     width: 100%;
   }
@@ -1688,7 +1688,7 @@ ul, li {
   color: #00b6bc;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .sticky .con .left {
     width: 100%;
   }
@@ -1699,7 +1699,7 @@ ul, li {
   line-height: 1.6em;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .sticky .con .right {
     width: 100%;
   }

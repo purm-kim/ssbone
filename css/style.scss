@@ -9,8 +9,8 @@
       @content;
     }
   }
-  @if $point == laptop_pc {
-    @media (min-width: 1025px) and (max-width:1999px){
+  @if $point == laptop {
+    @media (min-width: 769px) and (max-width:1999px){
       @content;
     }
   }
@@ -20,7 +20,7 @@
   //   }
   // }
   @if $point == mobile {
-    @media (max-width: 1024px) {
+    @media (max-width: 768px) {
       @content;
     }
   }
