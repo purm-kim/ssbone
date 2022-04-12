@@ -204,6 +204,12 @@ ul, li {
   background: linear-gradient(0deg, #E4D1B1 50%, transparent 50%);
 }
 
+@media (max-width: 768px) {
+  .highlight {
+    background: none;
+  }
+}
+
 .h1 {
   font-size: 35rem;
 }
@@ -419,7 +425,7 @@ ul, li {
 .subtop01 .sub_title .img_wrap {
   position: absolute;
   bottom: 0;
-  right: -75rem;
+  right: 0;
   width: 330rem;
   height: 330rem;
 }
@@ -518,7 +524,7 @@ ul, li {
 .subtop02 .sub_title .img_wrap {
   position: absolute;
   bottom: 0;
-  right: -75rem;
+  right: 0;
   width: 330rem;
   height: 330rem;
 }
@@ -872,7 +878,7 @@ ul, li {
 
 .internal_disease .tabs .tab_list li {
   padding: 20rem 0;
-  width: 280rem;
+  width: 90%;
   height: 70rem;
   background-color: #F8F8F8;
 }
@@ -1056,7 +1062,7 @@ ul, li {
 
 .internal_disease .ui-tabs .ui-tabs-nav li.ui-tabs-active {
   padding: 20rem 0;
-  width: 280rem;
+  width: 90%;
   height: 70rem;
   background-color: #D3B076;
 }
@@ -1505,6 +1511,11 @@ ul, li {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     row-gap: 10rem;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-column-gap: 5rem;
+            column-gap: 5rem;
   }
 }
 
@@ -1517,7 +1528,7 @@ ul, li {
 
 @media (max-width: 768px) {
   .sticky .section_nav ul li {
-    width: 31%;
+    width: 24%;
   }
 }
 
@@ -1594,7 +1605,6 @@ ul, li {
       -ms-flex-pack: justify;
           justify-content: space-between;
   float: right;
-  background-color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -1709,8 +1719,12 @@ ul, li {
   background-color: #f6f6f6;
 }
 
+.sticky .bg .txt_box {
+  background-color: #f5fcfc;
+}
+
 .sticky .nonbg .txt_box {
-  background-color: #00b6bc !important;
+  background-color: #036b6b !important;
 }
 
 .sticky .nonbg .txt_box p {

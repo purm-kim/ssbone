@@ -212,6 +212,9 @@ ul, li{
 .highlight{
   display: inline-block;
   background: linear-gradient(0deg, $beige 50%, transparent 50%);
+  @include mq(mobile){
+    background: none;
+  }
 }
 
 .h1{
@@ -381,7 +384,7 @@ ul, li{
     .img_wrap{
       position: absolute;
       bottom: 0;
-      right: -75rem;
+      right: 0;
       width: 330rem;
       height: 330rem;
       @include mq(mobile){
@@ -454,7 +457,7 @@ ul, li{
     .img_wrap{
       position: absolute;
       bottom: 0;
-      right: -75rem;
+      right: 0;
       width: 330rem;
       height: 330rem;
       @include mq(mobile){
@@ -718,7 +721,7 @@ ul, li{
       }
       li{
         padding: 20rem 0;
-        width: 280rem;
+        width: 90%;
         height: 70rem;
         background-color: $light_gray ;
         @include mq(mobile){
@@ -860,7 +863,7 @@ ul, li{
   //탭 액티브 스타일
   .ui-tabs .ui-tabs-nav li.ui-tabs-active{
     padding: 20rem 0;
-    width: 280rem;
+    width: 90%;
     height: 70rem;
     background-color: $light_brown;
     @include mq(mobile){
@@ -1209,6 +1212,8 @@ ul, li{
       @include mq(mobile){
         flex-wrap: wrap;
         row-gap: 10rem;
+        justify-content: flex-start;
+        column-gap: 5rem;
       }
       li{
         width: 150rem;
@@ -1216,7 +1221,7 @@ ul, li{
         background-color: #f6f6f6;
         text-align: center;
         @include mq(mobile){
-          width: 31%;
+          width: 24%;
         }
         a{
           display: block;
@@ -1270,7 +1275,7 @@ ul, li{
         flex-direction: column;
         justify-content: space-between;
         float: right;
-        background-color: #fff;
+        // background-color: #f5fcfc;
         @include mq(mobile){
           width: 100%;
         }
@@ -1345,10 +1350,13 @@ ul, li{
   }
   .bg{
     background-color: #f6f6f6;
+    .txt_box{
+      background-color: #f5fcfc;
+    }
   }
   .nonbg{
     .txt_box{
-      background-color: #00b6bc !important;
+      background-color: #036b6b !important;
       p{
         color: #fff !important;
       }
