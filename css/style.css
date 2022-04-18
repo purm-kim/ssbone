@@ -381,14 +381,13 @@ ul, li {
 }
 
 .subtop01 .subtop_img {
-  width: 50%;
-  height: 500rem;
+  width: 30%;
+  height: 250rem;
 }
 
 @media (max-width: 768px) {
   .subtop01 .subtop_img {
     width: 100%;
-    height: 250rem;
   }
 }
 
@@ -401,15 +400,14 @@ ul, li {
 
 .subtop01 .sub_title {
   position: relative;
-  width: 50%;
-  height: 500rem;
+  width: 70%;
+  height: 250rem;
   background-color: #D3B076;
 }
 
 @media (max-width: 768px) {
   .subtop01 .sub_title {
     width: 100%;
-    height: 250rem;
   }
 }
 
