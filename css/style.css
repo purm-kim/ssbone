@@ -353,7 +353,7 @@ ul, li {
           box-sizing: content-box;
   position: relative;
   width: 100%;
-  height: 500rem;
+  height: 250rem;
 }
 
 @media (max-width: 768px) {
@@ -370,7 +370,7 @@ ul, li {
   z-index: -1;
   content: "";
   width: 100%;
-  height: 320rem;
+  height: 0rem;
   background-color: #FAF6EF;
 }
 
